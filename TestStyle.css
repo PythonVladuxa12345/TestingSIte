@@ -1,0 +1,37 @@
+.wow {
+	background-color: #8092D1;
+	position: absolute;
+	z-index: -1;
+	display: block;
+	left:0;
+	width: 101.5%;
+	height: 50px;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+	height: 50px
+	left: 0px;
+}
+ul li {
+	float: left;
+	
+}
+ul li a {
+	color:#fff;
+	display:block;
+	height: 50px;
+	padding:0 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 50px;
+	border-left: 0.5px dotted black;
+	border-right: 0.5px dotted black;
+}
+ul li a:hover {
+	background-image: linear-gradient(45deg, #FEF785, #FCC37D);
+	font-weight: bolder;
+	color:black;
+
+}
